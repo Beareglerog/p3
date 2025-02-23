@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivial de Cultura General</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Juego de Trivial</h1>
+        <p>¡Demuestra tus conocimientos de cultura general!</p>
+    </header>
+
+    <main>
+        <section id="trivia">
+            <h2 id="question">Cargando pregunta...</h2>
+            <ul id="options"></ul>
+            <p id="feedback" class="hidden"></p>
+        </section>
+
+        <section id="ad-section" class="hidden">
+            <h3>Publicidad Sugerida</h3>
+            <div id="ad-content">
+                <img id="ad-image" src="" alt="Publicidad">
+                <h4 id="ad-title"></h4>
+                <p id="ad-description"></p>
+                <p id="ad-price"></p>
+            </div>
+        </section>
+
+        <section id="score">
+            <h2>Puntuación: <span id="score-value">0</span></h2>
+        </section>
+
+        <button id="next-question" class="hidden">Siguiente Pregunta</button>
+    </main>
+
+    <footer>
+        <p>Juego de Trivial - Cultura General</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
